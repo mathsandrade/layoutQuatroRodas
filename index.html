@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Quatro Rodas - Layout</title>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<!--Link para o JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<!--Links para o Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8" async defer></script> 
+
+	<!--Link para o css -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Delius' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			
+	<link rel="stylesheet" href="css/yamm/yamm.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<script src="js/func.js"></script>
+	
+</head>
+<body>
+	<header>	
+		<div class="container padding-banner">
+			<a href="https://comparabem.com.br/emprestimos-pessoais"><img src="images/banner-hsbc.jpg" alt="banner hsbc" class="img-responsive center-block"></a>
+		</div>
+		<div class="container example3 no-padding">
+		  <nav class="navbar yamm navbar-inverse navbar-static-top" style="background: red;">
+		    <div class="container">
+		      <div class="navbar-header">
+		        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
+		          <span class="sr-only">Toggle navigation</span>
+		          <span class="icon-bar"></span>
+		          <span class="icon-bar"></span>
+		          <span class="icon-bar"></span>
+		        </button>
+		        <a class="navbar-brand" href="https://quatrorodas.abril.com.br/"><img src="images/logo-quatro-rodas.png" alt="logo-quatro-rodas"></a>
+		      </div>
+		      
+		      <div id="navbar3" class="navbar-collapse collapse">
+
+		      <div class="col-md-2 col-sm-2 col-xs-6 icones-redes">
+		        <a href="https://www.facebook.com/grupoabril/"><img src="images/icons/facebook-icon.png" alt="icone facebook"></a>
+		        <a href="https://www.instagram.com/grupoabril/"><img src="images/icons/instagram-icon.png" alt="icone instagram"></a>
+		        <a href="https://twitter.com/abril"><img src="images/icons/twitter-icon.png" alt="icone twitter"></a>
+		        <a href="http://www.abril.com.br/"><img src="images/icons/abril-icon.png" alt="icone abril"></a>
+		      </div>
+		        <ul class="nav navbar-nav">
+		          <li class="dropdown yamm-fw"><a href="#" class="dropdown-toggle" data-toggle="dropdown">CARROS <i class="fa fa-chevron-down tamanho-setinha"></i></a>
+					<ul class="dropdown-menu">
+						<li>
+							<div class="yamm-content">
+								<div class="row">
+									<ul class="col-sm-2 list-unstyled">
+										<li class="menu-linha-coluna">Ver todos os carros</li>
+									</ul>
+									<ul class="col-sm-2 list-unstyled">
+										<li class="texto-menu-carro">Lorem</li>
+										<li class="texto-menu-carro">Lorem</li>
+										<li class="texto-menu-carro">Lorem</li>
+										<li class="texto-menu-carro">Lorem</li>
+									</ul>
+									<ul class="col-sm-2 list-unstyled">
+										<li class="texto-menu-carro">Lorem</li>
+										<li class="texto-menu-carro">Lorem</li>
+										<li class="texto-menu-carro">Lorem</li>
+										<li class="texto-menu-carro">Lorem</li>
+									</ul>
+									<ul class="col-sm-2 list-unstyled">
+										<li class="texto-menu-carro">Lorem</li>
+										<li class="texto-menu-carro">Lorem</li>
+										<li class="texto-menu-carro">Lorem</li>
+										<li class="texto-menu-carro">Lorem</li>
+									</ul>
+									<ul class="col-sm-2 list-unstyled">
+										<li class="texto-menu-carro">Lorem</li>
+										<li class="texto-menu-carro">Lorem</li>
+										<li class="texto-menu-carro">Lorem</li>
+										<li class="texto-menu-carro">Lorem</li>
+									</ul>
+									<ul class="col-sm-2 list-unstyled">
+										<li class="texto-menu-carro">Lorem</li>
+										<li class="texto-menu-carro">Lorem</li>
+										<li class="texto-menu-carro">Lorem</li>
+										<li class="texto-menu-carro">Lorem</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+		          </li>
+		          <li class="dropdown yamm-fw linkTeste"><a href="#" class="dropdown-toggle" data-toggle="dropdown">TESTES <i class="fa fa-chevron-down tamanho-setinha"></i></a>
+					<ul class="dropdown-menu">
+						<li>
+							<div class="yamm-content">
+								<div class="row">
+									<div class="col-md-2">
+										<ul class="list-unstyled">
+											<li class="menu-linha-coluna forum"><a href="#" class="linkVeiculo" id="tudo">Ver tudo de testes </a><i class="fa fa-chevron-right tamanho-setinha"></i></li>
+											<li class="menu-linha-coluna"><a href="#" class="linkVeiculo" id="comparativos">Comparativos</a></li>
+											<li class="menu-linha-coluna"><a href="#" class="linkVeiculo" id="impressoes">Impressões</a></li>
+											<li class="menu-linha-coluna"><a href="#" class="linkVeiculo" id="longa_duracao">Longa duração</a></li>
+											<li class="menu-linha-coluna"><a href="#" class="linkVeiculo" id="teste_pista">Teste de pista</a></li>
+										</ul>
+									</div>
+									<div class="col-md-10 todosCarros" style="display: none">
+										<div class="col-md-2 padding-lateral">
+											<img src="images/img-carro-megamenu.png" class="img-responsive" alt="carro">
+											<h5 class="texto-menu-teste">Lorem ipsum dolor sit amet, consectetur.</h5>
+										</div>
+										<div class="col-md-2 padding-lateral">
+											<img src="images/img-carro-megamenu1.png" class="img-responsive" alt="carro">
+											<h5 class="texto-menu-teste">Lorem ipsum dolor sit amet, consectetur.</h5>
+										</div>
+										<div class="col-md-2 padding-lateral">
+											<img src="images/img-carro-megamenu2.png" class="img-responsive" alt="carro">
+											<h5 class="texto-menu-teste">Lorem ipsum dolor sit amet, consectetur.</h5>
+										</div>
+										<div class="col-md-2 padding-lateral">
+											<img src="images/img-carro-megamenu3.png" class="img-responsive" alt="carro">
+											<h5 class="texto-menu-teste">Lorem ipsum dolor sit amet, consectetur.</h5>
+										</div>
+										<div class="col-md-2 padding-lateral">
+											<img src="images/img-carro-megamenu4.png" class="img-responsive" alt="carro">
+											<h5 class="texto-menu-teste">Lorem ipsum dolor sit amet, consectetur.</h5>
+										</div>
+										<div class="col-md-2 padding-lateral">
+											<img src="images/img-carro-megamenu5.png" class="img-responsive" alt="carro">
+											<h5 class="texto-menu-teste">Lorem ipsum dolor sit amet, consectetur.</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>				
+		         </li>
+		          <li><a href="#">NOTÍCIAS</a></li>
+		          <li><a href="#">AUTO-SERVIÇO</a></li>
+		          <li><a href="#">GUIA DE COMPRAS</a></li>
+		          <li><a href="#">TABELA FIPE</a></li>
+		          <li><a href="#">ASSINE</a></li>
+
+		          <li>
+		          	<form class="navbar-form" role="search" action="" method="get">
+			    		<div class="input-group add-on">
+			      			<input class="form-control barra-busca" placeholder="Pesquisar" name="srch-term" id="srch-term" type="text">
+			      			<i class="glyphicon glyphicon-search lupa"></i>
+
+			    		</div>
+		  			</form>
+		  		</li>
+		          
+		   	 </ul>
+		   	 
+		    </div>
+		</div>
+	</nav>
+		<div class="faixa">
+			<div class="barra-seta">
+				<span>+ ACESSADOS</span>
+				<img src="images/seta.png" class="img-seta" alt="seta">
+			</div>
+		  		<ul class="navbar navbar-nav">
+		  			<li><a href="#">Lorem</a></li>
+		  			<li><a href="#">Lorem</a></li>
+					<li><a href="#">Lorem</a></li>
+					<li><a href="#">Lorem</a></li>
+					<li><a href="#">Lorem</a></li>
+					<li><a href="#">Lorem</a></li>
+					<li><a href="#">Lorem</a></li>
+					<li><a href="#">Lorem</a></li>
+					<li><a href="#">Lorem</a></li>
+		  		</ul>
+		</div>
+	</div>
+	</header>
+		<div class="container no-padding">
+			<div class="col-sm-6 no-padding">				
+				<img src="images/img-carro-grande.png" alt="carro grande" class="img-responsive"><a href="">
+				<h1 class="titulo-carro-grande">Lorem ipsum dolor sit amet, consectetur.</h1></a>
+				<a href="#"><h3 class="subtitulo-carro-grande"><i class="glyphicon glyphicon-stop"></i> CARROS GRANDES</h3></a>
+			</div>
+			<div class="col-sm-6 no-padding">
+				<div class="col-sm-6 no-padding"><img src="images/img-carro-medio.png" alt="carro medio" class="img-responsive"><a href="#">
+					<h3 class="subtitulo-carro-medio"><i class="glyphicon glyphicon-stop"></i> FABRICANTES</h3></a>
+					<a href="#"><h1 class="titulo-carro-medio">Lorem ipsum dolor sit amet, consectetur.</h1></a>
+				</div>
+				<div class="col-sm-6 no-padding"><img src="images/img-carro-medio1.png" alt="carro medio 1" class="img-responsive"><a href="">
+					<h3 class="subtitulo-carro-medio"><i class="glyphicon glyphicon-stop"></i> PROMOVIDO POR VOLKSWAGEN</h3></a>
+					<a href="#"><h1 class="titulo-carro-medio">Lorem ipsum dolor sit amet, consectetur.</h1></a>
+				</div>
+				<div class="col-sm-6 no-padding"><img src="images/img-carro-medio2.png" alt="carro medio 2" class="img-responsive"><a href="">
+					<h3 class="subtitulo-carro-medio"><i class="glyphicon glyphicon-stop"></i> FABRICANTES</h3></a>
+					<a href="#"><h1 class="titulo-carro-medio">Lorem ipsum dolor sit amet, consectetur.</h1></a>
+				</div>
+					<div class="col-sm-6 no-padding"><img src="images/img-carro-medio3.png" alt="carro medio 3" class="img-responsive"><a href="">
+					<h3 class="subtitulo-carro-medio"><i class="glyphicon glyphicon-stop"></i> PROMOVIDO POR VOLKSWAGEN</h3></a>
+					<a href="#"><h1 class="titulo-carro-medio">Lorem ipsum dolor sit amet, consectetur.</h1></a>
+				</div>
+			</div>
+		</div>
+		<div class="container padding-topo">
+			<div class="row">
+				<div class="col-sm-3"><img src="images/img-carro-peq.png" alt="carro pequeno" class="img-responsive">
+					<div>
+						<h3 class="subtitulo-carro-peq"><i class="glyphicon glyphicon-stop"></i> <a href="#">COMPARATIVOS</a></h3>
+						<a href="#"><h2 class="titulo-carro-baixo">Lorem ipsum dolor sit.</h2><p class="texto-carro-baixo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in luctus justo, at venenatis nunc. </p></a>
+					</div>
+				</div>
+				<div class="col-sm-3"><img src="images/img-carro-peq1.png" alt="carro pequeno 1" class="img-responsive">
+					<div>
+						<h3 class="subtitulo-carro-peq"><i class="glyphicon glyphicon-stop"></i> <a href="#">IMPRESSÕES</a></h3>
+						<a href="#"><h2 class="titulo-carro-baixo">Lorem ipsum dolor sit.</h2><p class="texto-carro-baixo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in luctus justo, at venenatis nunc. </p></a>
+					</div>
+				</div>
+				<div class="col-sm-3"><img src="images/img-carro-peq2.png" alt="carro pequeno 2" class="img-responsive">
+					<div>
+						<h3 class="subtitulo-carro-peq"><i class="glyphicon glyphicon-stop"></i> <a href="#">IMPRESSÕES</a></h3>
+						<a href="#"><h2 class="titulo-carro-baixo">Lorem ipsum dolor sit.</h2><p class="texto-carro-baixo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in luctus justo, at venenatis nunc. </p></a>
+					</div>
+				</div>
+				<div class="col-sm-3" id="carro-baixo"><img src="images/img-carro-peq3.png" alt="carro pequeno 3" class="img-responsive">
+					<div>
+						<h3 class="subtitulo-carro-peq"><i class="glyphicon glyphicon-stop"></i> <a href="#">AUTO-SERVIÇO</a></h3>
+						<a href="#"><h2 class="titulo-carro-baixo">Lorem ipsum dolor sit.</h2><p class="texto-carro-baixo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in luctus justo, at venenatis nunc. </p></a>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</body>
+</html>
